@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Music</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/style-2.css" type="text/css">
+  <title>Document</title>
 </head>
 
 <body>
-  <!-- fondo -->
   <div class="container-fluid bg-fondo">
-    <!-- contenedor central -->
+    <!-- cabecera -->
     <div class="container bg-central">
-      <!-- Barra del logo -->
-      <div class="row separador">
+      <div class="row">
         <!-- logo -->
-        <div class="col-md-2 col-4">
+        <div class="col-md-2 separador">
           <a href=""><img src="img/logo.jpg" alt="Logo" class="rounded-circle logo"></a>
         </div>
         <!-- redes sociales -->
-        <div class="col-md-10 col-6">
+        <div class="col-md-10">
           <h1 class="bot-left">Music LISA</h1>
           <ul class="list-inline bot-right">
             <li class="list-inline-item"><a href=""><img src="img/facebook.jpg" alt="facebook" class="redes-sociales"></a></li>
@@ -32,24 +28,24 @@
           </ul>
         </div>
       </div>
-      <!-- navbar -->
-      <div class="row separador">
-        <div class="col-md-12 nav">
-          <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Inicio</a></div>
-          <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Artistas</a></div>
-          <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Grupos</a></div>
-          <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Top 10</a></div>
-          <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Letras</a></div>
-          <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Acordes</a></div>
-        </div>
+      <div class="row">
+        <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Inicio</a></div>
+        <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Artistas</a></div>
+        <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Grupos</a></div>
+        <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Top 10</a></div>
+        <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Letras</a></div>
+        <div class="col-md-2 col-4 text-center"><a href="" class="btn btn-primary navegacion">Acordes</a></div>
       </div>
-      <!-- contenido -->
-      <div class="row separador">
+    </div>
+
+    <!-- Contenido -->
+    <div class="container bg-central separador">
+      <div class="row">
         <!-- column left -->
-        <div class="col-md-9">
+        <div class="col-md-9 col 12">
           <!-- post 1 -->
-          <div class="row">
-            <div class="col-12 col-md-7">
+          <div class="row separador">
+            <div class="col-md-7 col-12">
               <div class="row">
                 <!-- titulo -->
                 <div class="col-12">
@@ -64,65 +60,64 @@
               </div>
             </div>
             <!-- imagen -->
-            <div class="col-12 col-md-5">
-              <img src="img/imagine-dragons-min.jpg" alt="Imagine Dragons" class="img-post separador">
+            <div class="col-md-5 col-12">
+              <img src="img/imagine-dragons-min.jpg" alt="Imagine Dragons" class="img-post">
             </div>
-            <!-- comentario -->
-            <div class="col-md-2 separador d-none d-md-block">
-              <img src="img/Usuario-Icono.jpg" alt="Usuario" class="img-usuario">
-            </div>
-            <div class="col-md-10 col-12 separador">
-              <form role="form">
-                <div class="form-group">
-                  <label for="comentario-post-1">
-                    <h5>Comentarios</h5>
-                  </label>
-                  <textarea id="comentario-post-1" class="form-control"></textarea>
+            <!-- comentarios -->
+            <div class="col-12 separador">
+              <div class="row">
+                <div class="col-md-2 d-none d-md-block">
+                  <img src="img/Usuario-Icono.jpg" alt="Usuario" class="img-usuario">
                 </div>
-                <button type="button" class="btn btn-primary float-right">Enviar</button>
-              </form>
+                <div class="col-md-10 col-12">
+                  <form role="form">
+                    <div class="form-group">
+                      <label for="comentario-post-1">
+                        <h5>Comentarios</h5>
+                      </label>
+                      <textarea id="comentario-post-1" class="form-control"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary float-right">Enviar</button>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
           <!-- post 2 -->
           <div class="row separador">
             <!-- imagen -->
-            <div class="col-12 col-md-5">
-              <img src="img/twenty-one-pilots.JPG" alt="" class="img-post separador">
+            <div class="col-md-5 col-12">
+              <img src="img/twenty-one-pilots.JPG" alt="" class="img-post ">
             </div>
-            <div class="col-12 col-md-7">
+            <!-- texto -->
+            <div class="col-md-7 col-12">
+              <h3 class="text-center separador">Twenty One Pilots</h3>
+              <p class="text-justify">
+                Twenty One Pilots (estilizado como twenty øne piløts, y abreviado como TØP) es un dúo musical estadounidense originario de Columbus, Ohio. La banda fue formada en 2009 por el vocalista Tyler Joseph junto a los ex miembros Nick Thomas y Chris Salih, quienes se retiraron en 2011. Actualmente está conformada por el cantante, compositor y pianista Tyler Joseph junto con el baterista Josh Dun. Alcanzaron la fama a mediados de 2010 después de haber hecho lanzamientos independientes y tours durante varios años.
+              </p>
+            </div>
+            <div class="col-12 separador">
               <div class="row">
-                <!-- titulo -->
-                <div class="col-12">
-                  <h3 class="text-center separador">Twenty One Pilots</h3>
+                <div class="col-md-2">
+                  <img src="img/Usuario-Icono.jpg" alt="Usuario" class="img-usuario">
                 </div>
-
-                <!-- texto -->
-                <div class="col-12">
-                  <p class="text-justify">
-                    Twenty One Pilots (estilizado como twenty øne piløts, y abreviado como TØP) es un dúo musical estadounidense originario de Columbus, Ohio. La banda fue formada en 2009 por el vocalista Tyler Joseph junto a los ex miembros Nick Thomas y Chris Salih, quienes se retiraron en 2011. Actualmente está conformada por el cantante, compositor y pianista Tyler Joseph junto con el baterista Josh Dun. Alcanzaron la fama a mediados de 2010 después de haber hecho lanzamientos independientes y tours durante varios años.
-                  </p>
+                <div class="col-md-10 col-12">
+                  <form role="form">
+                    <div class="form-group">
+                      <label for="comentario-post-1">
+                        <h5>Comentarios</h5>
+                      </label>
+                      <textarea id="comentario-post-1" class="form-control"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary float-right">Enviar</button>
+                  </form>
                 </div>
               </div>
             </div>
-            <!-- comentario -->
-            <div class="col-md-2 separador d-none d-md-block">
-              <img src="img/Usuario-Icono.jpg" alt="Usuario" class="img-usuario">
-            </div>
-            <div class="col-md-10 col-12 separador">
-              <form role="form">
-                <div class="form-group">
-                  <label for="comentario-post-1">
-                    <h5>Comentarios</h5>
-                  </label>
-                  <textarea id="comentario-post-1" class="form-control"></textarea>
-                </div>
-                <button type="button" class="btn btn-primary float-right">Enviar</button>
-              </form>
-            </div>
           </div>
         </div>
-        <!-- column right  -->
-        <div class="col-md-3 d-none d-md-block">
+        <!-- column right -->
+        <div class="col-md-3 d-none d-md-block ">
           <!-- buscador -->
           <div class="row">
             <div class="col-md-12 ">
@@ -141,7 +136,7 @@
           </div>
           <!-- column de items -->
           <div class="row">
-            <div class="col-md-12 separador">
+            <div class="col-md-12">
               <div class="list-group">
                 <a href="" class="list-group-item list-group-item-action">Imagine Dragons</a>
                 <a href="" class="list-group-item list-group-item-action">Alan Walker</a>
@@ -156,5 +151,4 @@
     </div>
   </div>
 </body>
-
 </html>
