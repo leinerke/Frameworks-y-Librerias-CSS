@@ -1,0 +1,89 @@
+.visor {
+  background: #b13333;
+  min-height: 100px;
+  border: 1px solid black;
+}
+
+.visor-2 {
+  background: #fff;
+  border: solid 1px black;
+  min-height: 50px;
+}
+
+.bg-central {
+  background: rgb(235, 205, 132, .85 );
+}
+.bg-fondo{
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.img-post {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.separador {
+  margin: 1rem 0 0 0;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    width: 100%;
+    margin: .5rem;
+  }
+
+  .redes-sociales {
+    width: 2.5rem;
+    border-radius: 10px;
+  }
+
+  .bot-right {
+    position: absolute;
+    bottom: 0rem;
+    right: 2em;
+  }
+
+  .navegacion {
+    border-radius: .5rem;
+    width: 100%;
+  }
+
+  .bot-left {
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+  }
+
+  .img-usuario {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: .5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .logo {
+    display: block;
+    width: 100%;
+    margin: .5rem;
+  }
+
+  .bot-left {
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+  }
+
+  .bot-right {
+    display: none;
+  }
+
+  .navegacion {
+    border-radius: .5rem;
+    width: 100%;
+    margin: .2rem 0;
+  }
+}
