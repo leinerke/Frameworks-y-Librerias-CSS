@@ -86,10 +86,14 @@
   }
 }
 
-.botones-nav {
-  margin-bottom: 0.1rem;
+.botones-left {
+  margin-bottom: 0.3rem;
 }
 
+.list-nav{
+  list-style: none;
+  margin-left: 0;
+}
 @media(max-width: 39em) {
   .logo {
     padding: 1rem;
